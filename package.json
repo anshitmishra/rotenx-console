@@ -1,0 +1,31 @@
+{
+  "name": "rotenx-console",
+  "version": "1.0.1",
+  "description": "it is rotenx console in this you will get color full console ",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": ["lib/**/*"],
+  "scripts": {
+    "build":"tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anshitmishra/rotenx-console.git"
+  },
+  "keywords": [
+    "console",
+    "color",
+    "console",
+    "rotenx"
+  ],
+  "author": "anshit mishra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anshitmishra/rotenx-console/issues"
+  },
+  "homepage": "https://github.com/anshitmishra/rotenx-console#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
